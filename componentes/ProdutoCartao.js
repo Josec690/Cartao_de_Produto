@@ -9,7 +9,6 @@ import {
 } from 'react-native';
 
 const ProdutoCartao = ({ nome, preco, imagem }) => {
-  // Função para lidar com o clique no botão "Comprar"
   const handleBuyPress = () => {
     Alert.alert(
       "Compra realizada",
@@ -17,6 +16,8 @@ const ProdutoCartao = ({ nome, preco, imagem }) => {
       [{ text: "OK" }]
     );
   };
+
+  
 
   return (
     <View style={styles.cartao}>
@@ -78,6 +79,8 @@ const styles = StyleSheet.create({
     padding: 8,
     borderRadius: 5,
     alignItems: 'center',
+    justifyContent: 'end',
+    marginBottom: 10,
   },
   botaoTexto: {
     color: 'white',

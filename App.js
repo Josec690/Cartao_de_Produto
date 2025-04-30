@@ -8,46 +8,45 @@ import {
   StatusBar 
 } from 'react-native';
 
-import ProdutoCartao from './components/ProdutoCartao';
+import ProdutoCartao from './componentes/ProdutoCartao';
 
 export default function App() {
-  // Lista de produtos
   const produtos = [
     {
       id: '1',
       nome: 'Smartphone Galaxy S23',
       preco: 'R$ 4.999,00',
-      imagem: 'https://via.placeholder.com/150'
+      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPgOHFqDDLTpXGlzue1Et-KyGtroxW86Oq6w&s'
     },
     {
       id: '2',
       nome: 'Notebook Dell Inspiron',
       preco: 'R$ 3.599,00',
-      imagem: 'https://via.placeholder.com/150'
+      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkXvwq_Q7o3ElgYD06srL8-pZy4Gl7_vyDg&s'
     },
     {
       id: '3',
-      nome: 'Smart TV 55" LG',
+      nome: 'LG TV 4K 55 Polegadas',
       preco: 'R$ 2.799,00',
-      imagem: 'https://via.placeholder.com/150'
+      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcZM8cnVc6QbdS-prp6pOg8onlJXC1CgOMzw&s'
     },
     {
       id: '4',
       nome: 'Fone de Ouvido JBL',
       preco: 'R$ 299,00',
-      imagem: 'https://via.placeholder.com/150'
+      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3lb8O1WUU8Dqsx9FSE2fCqO4tevwwAX0-1g&s'
     },
     {
       id: '5',
-      nome: 'Tablet iPad Air',
+      nome: 'iPad Air Apple 11" 128 GB',
       preco: 'R$ 5.199,00',
-      imagem: 'https://via.placeholder.com/150'
+      imagem: 'https://www.detonashop.com.br/media/mf_webp/png/media/catalog/product/cache/041e82462066eef1ae3402cf9c4986f8/a/i/air_blue_01.webp'
     },
     {
       id: '6',
       nome: 'Smartwatch Apple Watch',
       preco: 'R$ 2.499,00',
-      imagem: 'https://via.placeholder.com/150'
+      imagem: 'https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-experience-for-entire-family-hero_09152020_big.jpg.large.jpg'
     },
   ];
 
